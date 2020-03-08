@@ -1,0 +1,11 @@
+
+.artist {
+font-size: 14px;
+color: #a0a0a0;
+text-decoration: none;
+padding-right: 5px;
+}
+
+a:hover {
+text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+.album-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 668px) {
+  .album-container {
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 100%;
+  }
+}
