@@ -1,16 +1,14 @@
-.icon-container {
+.album-cover:hover .icons-container {
+  width: 300px;
+  height: 300px;
   display: flex;
   justify-content: space-evenly;
-}
-
-.icon {
-  width: 40px;
   position: absolute;
-  z-index: 1;
-  fill: white;
+  background: black;
+  opacity: 0.75;
 }
 
-.album-card{
+.album-card {
   max-width: 300px;
   margin: 5px;
   position: relative;
@@ -30,13 +28,9 @@
   text-decoration: underline;
   }
 
-  .album-cover{
+  .album-cover {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-  }
-
-  .album-cover :hover{
-    opacity: 0.55;
   }

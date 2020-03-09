@@ -1,18 +1,14 @@
 import React from 'react'
 import { Artist } from './Artist'
 import './album.css'
-
+import { Icons } from './Icons'
 
 export const Album = (props) => {
   return (
     <div className='album-card'>
-      <div className='icon-container'>
-        <img className='icon' src='../icons/heart.svg' alt='icon heart' />
-        <img className='icon' src='../icons/play.svg' alt='icon play' />
-        <img className='icon' src='../icons/dots.svg' alt='icon dot' />
-        <div className='album-cover'>
-          <img src={props.item.images[1].url} alt='album cover' />
-        </div>
+      <div className='album-cover'>
+        <img src={props.item.images[1].url} alt='album cover' />
+        <Icons />
       </div>
       <a className='album-name' href={props.item.external_urls.spotify}>{props.item.name}</a>
       <div>
@@ -20,6 +16,6 @@ export const Album = (props) => {
           return (<Artist key={artist.id} artist={artist} />)
         })}
       </div>
-    </div>
+    </div >
   )
 }

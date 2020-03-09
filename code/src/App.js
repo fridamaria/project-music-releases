@@ -3,8 +3,6 @@ import data from './data.json'
 import { Album } from 'Album.js';
 import './app.css'
 
-console.log(data)
-
 export const App = () => {
   return (
     <div className="album-container">
