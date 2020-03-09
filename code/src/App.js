@@ -5,11 +5,11 @@ import './app.css'
 
 export const App = () => {
   return (
-    <div className="album-container">
+    <section className="album-container">
       {data.albums.items.map(item => {
         return (<Album key={item.id} item={item} />);
       })}
-    </div>
+    </section>
   );
 };
 

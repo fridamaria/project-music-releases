@@ -5,7 +5,7 @@ import { Icons } from './Icons'
 
 export const Album = (props) => {
   return (
-    <div className='album-card'>
+    <article className='album-card'>
       <div className='album-cover'>
         <img src={props.item.images[1].url} alt='album cover' />
         <Icons />
@@ -16,6 +16,6 @@ export const Album = (props) => {
           return (<Artist key={artist.id} artist={artist} />)
         })}
       </div>
-    </div >
+    </article>
   )
 }
