@@ -16,11 +16,12 @@ If we had more time we would go for the strecth goals which was to add a playlis
 
 ## Tech
 
-* HTML5
-* CSS3
 * React.js
 * JSX
+* HTML5
+* CSS3
+
 
 ## View it live
 
-https://fridamaria-music.netlify.com/
+https://fridamaria-music.netlify.app/
